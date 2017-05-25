@@ -1,0 +1,1 @@
+start /min "" "C:\Program Files\Nemex\Mouse Recorder Pro\Mouse Recorder Pro.exe" "D:\Install\console\Programm\freestyle\prokrut\electron\nasos\prokrutka.mrs" -count1 -autorun -end

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="rasp.css">
+  </head>
+  <body onload="onloa()">
+    <div id="div_btn">
+      <div style="padding:0px;">
+        <button id="btn_ex"type="button" name="button" onclick="location.href='../home.html'" class="btn_ex">Назад</button>
+        <div id="div_data">
+        </div>
+        <figure>
+          <input type="radio" name="radio_vid" value="spisok" checked="true" onclick="check_radio()">
+          <caption>Список тренировок</caption>
+        </figure>
+        <figure>
+          <input type="radio" name="radio_vid" value="table" onclick="check_radio()">
+          <caption>Вид таблица</caption>
+        </figure>
+        <figure>
+          <input type="radio" name="radio_vid" value="plan" onclick="check_radio()">
+          <caption>Планирование</caption>
+        </figure>
+      </div>
+
+    </div>
+    <div id="div_table">
+      
+    </div>
+    <script type="text/javascript" src="rasp.js" charset="utf-8"></script>
+  </body>
+</html>

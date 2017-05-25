@@ -1,0 +1,120 @@
+.kobra{
+  position: absolute;
+  margin-left : 10px;
+  margin-top: 20px;
+  border: 1px solid black;
+  width: 90px;
+  height: 180px;
+}
+.rondo{
+  position: absolute;
+  margin-left : 10px;
+  margin-top: 300px;
+  border: 1px solid black;
+  width: 90px;
+  height: 170px;
+}
+.plav{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+  margin-top: 1px;
+  margin-left: 1px;
+  border: 1px solid black;
+  height: 515px;
+  width: 810px;
+}
+.gid{
+  width: 460px;
+  height: 180px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 110px;
+  border: 1px solid black;
+}
+.btn_submit{
+  border: 5px solid #e8472e;
+  border-radius: 10px;
+  background-color: #a0c251;
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 17px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+}
+.btn_submit:hover{
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+.btn_check{
+  border: 5px solid #05a189;
+  border-radius: 10px;
+  background-color: #a0c251;
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 17px;
+  position: absolute;
+  width: 200px;
+  height: 35px;
+}
+.btn_check:hover{
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+.kobra_btk{
+  position: absolute;
+  margin-left : 110px;
+  margin-top: 300px;
+  border: 1px solid black;
+  width: 90px;
+  height: 170px;
+}
+.pod{
+  position: absolute;
+  margin-left : 215px;
+  margin-top: 300px;
+  border: 1px solid black;
+  width: 220px;
+  height: 170px;
+}
+.mal{
+  position: absolute;
+  margin-left : 450px;
+  margin-top: 300px;
+  border: 1px solid black;
+  width: 120px;
+  height: 170px;
+}
+.div_btn{
+  border: 1px solid black;
+  width: 220px;
+  height: 480px;
+  margin-left: 580px;
+  margin-top: 20px;
+}
+.btn_all{
+  font-weight: bold;
+  font-size: 15px;
+  font-family: monospace;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 200px;
+}
+input[type="radio"]{
+  width: 20px;
+  height: 20px;
+}
+.table_radio{
+  margin: auto;
+}
+input[type="checkbox"]{
+  width: 18px;
+  height: 18px;
+}
+select{
+  margin-left: 10px;
+  width: 200px;
+  height: 25px;
+}

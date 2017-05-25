@@ -1,0 +1,1 @@
+start /min "" "D:\Install\console\Programm\freestyle\prokrut\electron\alarm\mus\mus.vbs"

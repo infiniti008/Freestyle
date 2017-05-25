@@ -1,0 +1,40 @@
+.btn_exit{
+  border-radius: 3px;
+  width:50px;
+  height:19px;
+  position:absolute;
+  border:2px solid #ed6161;
+  background-color:#a63737;
+  font-weight:bold;
+  color: white;
+}
+.btn_exit:hover{
+  /*color: #a63737;*/
+  box-shadow: 0 0 7px rgba(0,0,0,0.7);
+}
+.div_home{
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 465px;
+  width: 770px;
+  position: relative;
+}
+.btn_size{
+  width: 500px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 135px;
+}
+.btn_href{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 35px;
+  border: 5px solid #05a189;
+  border-radius: 10px;
+  background-color: #a0c251;
+  position: relative;
+}
+.btn_href:hover{
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}

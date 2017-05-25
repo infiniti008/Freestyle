@@ -1,0 +1,17 @@
+{
+  "name": "btk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "btk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "desktop-screenshot": "^0.1.1",
+    "fs": "0.0.1-security",
+    "gm": "^1.23.0",
+    "node-resemble-js": "^0.2.0"
+  }
+}

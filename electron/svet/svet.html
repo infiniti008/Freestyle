@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="svet.css" type="text/css">
+  </head>
+  <body onload="onload()">
+    <table cellspacing="0px">
+      <tbody>
+        <tr>
+          <td>
+            <div id="div_table">
+              <div class="div_etag">
+                <button type="button" id="btn_lev" class="btn_et" value="lev" onclick="change_table(value)">1 левый</button>
+                <button type="button" id="btn_prav" class="btn_et" value="prav" onclick="change_table(value)">1 правый</button>
+                <button type="button" id="btn_vtor" class="btn_et" value="vtor" onclick="change_table(value)">Второй</button>
+                <button type="button" id="btn_tret" class="btn_et" value="tret" onclick="change_table(value)">Третий</button>
+                <button type="button" id="btn_kupol" class="btn_et" value="kupol" onclick="change_table(value)">Купол</button>
+              </div>
+                <table name="name_table" id="table_lev" accesskey="lev">
+
+                </table>
+          </td>
+          <td>
+            <div id="div_btn">
+              <button id="btn_ex"type="button" name="button" onclick="location.href='../home.html'" class="btn_ex">Назад</button><br>
+              <table class="table_radio">
+                <tr>
+                  <td>
+                    <input type="checkbox" id="cbox_multi" onclick="cbox_multi()">
+                  </td>
+                  <td class="td_text">
+                    - Несколько этажей
+                  </td>
+                </tr>
+              </table>
+
+              <label for="select_scen" style="font-weight:bold; font-size:20px">Выберите сценарий</label><br>
+              <!-- for select -->
+              <button type="button" id="btn_conf" class="btn_check" style="font-size:18px"onclick="confirm_scenario()">Подтвердить сценарий</button>
+              <table class="table_radio">
+                <tr>
+                  <td>
+                    <input type="radio" name="to_do" value="on" checked  id="radio_on" onclick="check_radio(id)">
+                  </td>
+                  <td class="td_text">
+                    Включить
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="radio" name="to_do" value="off" id="radio_off" onclick="check_radio(id)">
+                  </td>
+                  <td class="td_text">
+                    Отключить
+                  </td>
+                </tr>
+              </table>
+              <button type="button" name="button" id="btn_uncheck" class="btn_check" onclick="unchecked_all()">Отменить выбор</button><br>
+              <button type="button" id="btn_submit" name="button" class="btn_submit" onclick="get_data()">Включить освещение</button>
+              <button type="button" name="button" id="btn_del" value = "btn_del" class="btn_check" onclick="del_scenario(value)">Удалить сценарий</button><br>
+              <button type="button" name="button" id="btn_add_scen" class="btn_check" value="create" onclick="create_scenario()">Создать сценарий</button><br>
+              <!-- <button type="button" name="button" id="btn_add_tr" value="create" class="btn_check" onclick="save_coord()">Добавить точку</button><br>
+              <button type="button" name="button" id="btn_del_tr" class="btn_check" onclick="del_tr()">Удалить строку</button><br> -->
+
+
+
+
+              <!-- <button type="button" id="btn" onclick="asd()">asfdsfdsff</button><br>
+              <button type="button" name="button" onclick="create_add_window()">create</button><br>
+              <button id="btn_ex"type="button" name="button" onclick="location.href='../home.html'" class="btn_ex">Назад</button> -->
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <script type="text/javascript" src="svet.js"></script>
+  </body>
+</html>

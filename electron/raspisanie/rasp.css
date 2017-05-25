@@ -1,0 +1,177 @@
+.btn_ex{
+  border-radius: 3px;
+  width:50px;
+  height:19px;
+  position:absolute;
+  border:2px solid #ed6161;
+  background-color:#a63737;
+  font-weight:bold;
+  color: white;
+}
+.btn_ex:hover{
+  box-shadow: 0 0 7px rgba(0,0,0,0.7);
+}
+#div_btn{
+  width: 255px;
+  height: 520px;
+  border: 1px solid red;
+  position: fixed;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 5px;
+  padding-top: 0px;
+}
+#div_table{
+  /*border: 1px solid green;*/
+  width: 530px;
+  height: auto;
+  position: absolute;
+  margin-left: 270px;
+  margin-top: 0px;
+}
+#div_data{
+  margin-left: 150px;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100px;
+  /*border: 1px solid blue;*/
+  margin-top: 5px;
+  display: inline-block;
+}
+.table{
+  border-collapse: collapse;
+}
+.td_time{
+  font-family: monospace;
+  font-size: 12px;
+  /*border-right: 1px solid blue;*/
+  width: 40px;
+  height: auto;
+  vertical-align: top;
+}
+.td_sob{
+  font-family: monospace;
+  border: 1px solid yellow;
+  width: 240px;
+  height: auto;
+}
+.td_rasp{
+  font-family: monospace;
+  border: 1px solid pink;
+  width: 240px;
+  height: auto;
+}
+.td_spisok{
+  font-family: monospace;
+  /*border: 1px solid pink;*/
+  width: 480px;
+  height: auto;
+}
+.tr_row{
+  border-top: 3px solid grey;
+  width: 525px;
+  border-collapse:separate;;
+}
+#red{
+  font-weight: bold;
+  font-size: 16px;
+  /*width: 50%;*/
+  /*border: 3px solid orange;*/
+  /*border-radius: 5px;*/
+  background-color: red;
+  color: white;
+}
+#orange{
+  font-weight: bold;
+  font-size: 16px;
+  /*width: 50%;*/
+  /*border: 3px solid orange;*/
+  /*border-radius: 5px;*/
+  background-color: orange;
+  color: white;
+}
+#blue{
+  font-weight: bold;
+  font-size: 16px;
+  /*width: 50%;*/
+  /*border: 3px solid orange;*/
+  /*border-radius: 5px;*/
+  background-color: blue;
+  color: white;
+}
+#green{
+  font-weight: bold;
+  font-size: 16px;
+  /*border: 3px solid orange;
+  border-radius: 5px;*/
+  /*width: 50%;*/
+  background-color: green;
+  color: white;
+}
+#yellow{
+  font-weight: bold;
+  font-size: 16px;
+  /*width: 50%;*/
+  /*border: 3px solid orange;
+  border-radius: 5px;*/
+  background-color: yellow;
+  color: black;
+}
+#yellow:hover{
+  box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+
+#hor{
+  font-weight: bold;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: pink;
+}
+#bat{
+  font-weight: bold;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: red;
+}
+#spo{
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+#tre{
+  font-weight: bold;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: yellow;
+}
+#sps{
+  font-weight: bold;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: yellow;
+}
+.invis{
+  display: none;
+}
+.plan_menu{
+  width: 100%;
+  /*height: 20px;*/
+  border: 2px solid black;
+}
+.add_to_plan{
+  width: 100%;
+  border: 2px solid green;
+}
+#time_before{
+  width: 40px;
+  height: 15px;
+  font-size: 16px;
+}

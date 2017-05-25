@@ -1,0 +1,43 @@
+.alarm{
+  font-family: monospace;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 1px solid black;
+  height: 465px;
+  width: 770px;
+}
+.div_btn{
+  width: 730px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 1px solid black;
+  position: relative;
+}
+.btn{
+  width: 217px;
+  height: 60px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  border: 5px solid #05a189;
+  border-radius: 10px;
+  background-color: #a0c251;
+  position: relative;
+  display: inline;
+}
+.btn:hover{
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+.div_log{
+  width: 430px;
+  height: 230px;
+  margin-left: 20px;
+  margin-top: 92px;
+  border: 1px solid black;
+}
+td{
+  width: 400px;
+  font-weight: bold;
+}
